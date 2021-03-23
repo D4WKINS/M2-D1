@@ -1,0 +1,66 @@
+
+    /* EXERCISE 1
+          For all Albums we'd like to have a consistent style.
+          Create a class for:
+          - The album container
+          - The album cover
+          - The album title
+          - The album group / singer / dj
+          - The album genre
+          - The album duration
+          - etc
+       */
+
+.container{
+    margin-top:5rem;
+    margin-bottom: 5rem;
+    /* background-color:rgb(20,20,20); */
+}
+.album-review{
+    margin:auto;
+}
+
+/* .row :nth-child(0){
+
+    justify-content:center;
+} */
+
+.album-container{
+  
+    margin:2em auto; 
+}
+
+.album-cover{
+}
+
+.navbar{
+    background-color:rgb(20,20,20);
+}
+
+
+.album-genre,
+.album-duration{
+    color:rgb(190, 190, 190);
+    font-size:small;
+} 
+
+.album-artist{
+
+
+}
+
+.album-genre{
+
+
+}
+
+.album-duration{
+
+
+}
+
+.jumbotron{
+color:white;
+}
+
+
