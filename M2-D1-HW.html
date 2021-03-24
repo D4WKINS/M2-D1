@@ -14,28 +14,25 @@
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page
         -->
-        
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-            <a class="navbar-brand" href="#">STR8 FIRE</a>
+        <nav class="navbar navbar-expand-lg navbar-dark p-lg-5">
+            <a class="navbar-brand ml-lg-5" href="#">STR8 FIRE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-lg-3">
-                <li class="nav-item active">
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ml-lg-auto mr-lg-auto ">
+                <li class="nav-item active mr-lg-5">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Album-1</a>
+                <li class="nav-item mr-lg-5">
+                  <a class="nav-link" href="#">Album Playlists</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Album-2</a>
+                <li class="nav-item mr-lg-5">
+                    <a class="nav-link" href="#">What's Hot</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Album-3</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Album-4</a>
+                  <li class="nav-item mr-lg-5">
+                    <a class="nav-link" href="#">Hot Trash</a>
                   </li>
               </ul>
             </div>
@@ -48,59 +45,91 @@
             - 3 albums per row when you are on a tablet (or a smaller viewport)
             - 2 albums per row when you are on a small screen
         -->
-        <div class="container p-0 ml-auto mr-auto">
-            <div class="row">
 
-        <div class="card album-container shadow col-xl-3 col-lg-4" style="width: 18rem;">
-                <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title album-title">Victory Lap</h5>
-                    <h6 class="album-artist">Nipsey Hussle</h6>
-                        <h6 class="album-genre"> Rap/Hip Hop </h6>
-                        <h6 class="album-duration">1 Hour and 5 minutes </h6>
-                
-                    <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a>
-                </div>
+        <div class="jumbotron jumbotron-fluid mb-0" >
+            <div class="container">
+              <h1 class="display-4">We'll show you where it's hot!</h1>
+              <p class="lead">and where its not...</p>
             </div>
-            <div class="card album-container  shadow col-xl-3 col-lg-4" style="width: 18rem;">
-                <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title album-title">Victory Lap</h5>
-                    <h6 class="album-artist">Nipsey Hussle</h6>
-                        <h6 class="album-genre"> Rap/Hip Hop </h6>
-                        <h6 class="album-duration">1 Hour and 5 minutes </h6>
-                
-                    <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a>
-                </div>
-            </div>
+          </div>
 
-            <div class="card album-container shadow col-xl-3 col-lg-4" style="width: 18rem;">
-                <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title album-title">Victory Lap</h5>
-                    <h6 class="album-artist">Nipsey Hussle</h6>
-                        <h6 class="album-genre"> Rap/Hip Hop </h6>
-                        <h6 class="album-duration">1 Hour and 5 minutes </h6>
-                
-                    <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a>
-                </div>
-            </div>
+         
+     <div class="container-fluid p-5" style="background-color:rgb(0,0,0)" >
+        <h1 class="display-4 text-left my-3 pl-5 text-white" id="speakers">What's Hot!</h1>
 
-            <div class="card album-container shadow col-xl-3 col-lg-4" style="width: 18rem;">
-                <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title album-title">Victory Lap</h5>
-                    <h6 class="album-artist">Nipsey Hussle</h6>
-                        <h6 class="album-genre"> Rap/Hip Hop </h6>
-                        <h6 class="album-duration">1 Hour and 5 minutes </h6>
-                
-                    <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a>
-                </div>
+         <div class="card-deck p-5">
+
+    <div class="col-md-6 col-lg-4 mb-5">
+      <div class="card h-100">
+        <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+        <div class="card-body">
+            <h5 class="card-title album-title">Victory Lap</h5>
+                <h4 class="album-artist">Nipsey Hussle</h4>
+                <h6 class="album-genre"> Rap/Hip Hop </h6>
+                <h6 class="album-duration">1 Hour and 5 minutes</h6>
+            <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
             </div>
         </div>
     </div>
 
+    <div class="col-md-6 col-lg-4 mb-5">
+        <div class="card h-100">
+          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <div class="card-body">
+              <h5 class="card-title album-title">Victory Lap</h5>
+                  <h4 class="album-artist">Nipsey Hussle</h4>
+                  <h6 class="album-genre"> Rap/Hip Hop </h6>
+                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+              </div>
+          </div>
+      </div>
 
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="card h-100">
+          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <div class="card-body">
+              <h5 class="card-title album-title">Victory Lap</h5>
+                  <h4 class="album-artist">Nipsey Hussle</h4>
+                  <h6 class="album-genre"> Rap/Hip Hop </h6>
+                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="card h-100">
+          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <div class="card-body">
+              <h5 class="card-title album-title">Victory Lap</h5>
+                  <h4 class="album-artist">Nipsey Hussle</h4>
+                  <h6 class="album-genre"> Rap/Hip Hop </h6>
+                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="card h-100">
+          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <div class="card-body">
+              <h5 class="card-title album-title">Victory Lap</h5>
+                  <h4 class="album-artist">Nipsey Hussle</h4>
+                  <h6 class="album-genre"> Rap/Hip Hop </h6>
+                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+              </div>
+          </div>
+      </div>
+</div>
+</div>
+
+
+           
+    
     <!-- EXERCISE 4
             Create a section for the album reviews.
             Pick one of your fav albums, and create a section with:
@@ -112,7 +141,7 @@
             - Tracklist
             - ... And whatever you think it's interesting about it!
     -->
-        <div class="container album-review">
+        <div class="container-fluid album-review w-100 ">
             <div class="row">
                 <div class="col-lg-6">
                     <h2>Victory Lap</h2>
@@ -157,7 +186,6 @@
          EXERCISE 11
             Add in the footer a field that counts, on page load, how many ALBUMS there are on the page 
         -->
-  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body></html>

@@ -10,31 +10,45 @@
           - The album duration
           - etc
        */
-
-.container{
-    margin-top:5rem;
-    margin-bottom: 5rem;
-    /* background-color:rgb(20,20,20); */
-}
-.album-review{
-    margin:auto;
-}
-
-/* .row :nth-child(0){
-
-    justify-content:center;
+/* main{
+    background-color:black;
 } */
+
+@font-face{
+    font-family:'flames';
+    src: url('johnnytorch.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+   
+
+.container,
+.album-review{
+    /* margin-top:5rem;
+    margin-bottom: 5rem; */
+
+}
+
+.album-review{
+    text-align:center;
+    background-color:rgb(20,20,20);
+    color:white;
+}
+
+
 
 .album-container{
   
-    margin:2em auto; 
 }
 
 .album-cover{
 }
 
+
 .navbar{
     background-color:rgb(20,20,20);
+}
+
+.navbar-brand{
+    font-family:flames;
 }
 
 
@@ -59,8 +73,15 @@
 
 }
 
-.jumbotron{
+.jumbotron-fluid{
 color:white;
+background-image: url('stage-2.jpeg');
+background-position: 25px 0px;
+background-size: cover;
+background-color: rgba(255, 70, 70 , .8);
+background-blend-mode: multiply;
 }
+
+
 
 
