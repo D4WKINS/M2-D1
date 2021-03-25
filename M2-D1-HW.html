@@ -8,14 +8,14 @@
     <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
 
   </head>
-  <body>
+  <body class="bg-light">
 
     <!-- EXERCISE 2 
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page
         -->
-        <nav class="navbar navbar-expand-lg navbar-dark p-lg-5">
-            <a class="navbar-brand ml-lg-5" href="#">STR8 FIRE</a>
+        <nav class="navbar navbar-expand-lg navbar-dark  text-white p-lg-3">
+            <a class="navbar-brand ml-lg-5 font-weight-bold" href="#">STR8 FIRE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,80 +46,93 @@
             - 2 albums per row when you are on a small screen
         -->
 
-        <div class="jumbotron jumbotron-fluid mb-0" >
-            <div class="container">
-              <h1 class="display-4">We'll show you where it's hot!</h1>
-              <p class="lead">and where its not...</p>
+        <div class="jumbotron jumbotron-fluid mb-0 bg-overlay-1 a d-flex flex-column justify-content-center" >
+            <div class="container text-danger">
+              <span class="display-5 d-block font-weight-bold">All Your Favourite Music In One Place</span>
+              <span class="lead  display-6 ">Need suggestions, We got flames!</h3>
             </div>
           </div>
 
          
-     <div class="container-fluid p-5" style="background-color:rgb(0,0,0)" >
-        <h1 class="display-4 text-left my-3 pl-5 text-white" id="speakers">What's Hot!</h1>
+     <div class="container p-5 bg-light" >
+        <span class="display-5 text-xs-center text-md-left my-4 ps-lg-5 text-danger mb-sm-5" id="hot"> Hot Right Now!</span>
 
-         <div class="card-deck p-5">
+         <div class="card-deck p-lg-5 ">
 
-    <div class="col-md-6 col-lg-4 mb-5">
+    <div class="col-md-6 col-lg-4 mb-5 album-container">
       <div class="card h-100">
         <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
         <div class="card-body">
             <h5 class="card-title album-title">Victory Lap</h5>
                 <h4 class="album-artist">Nipsey Hussle</h4>
-                <h6 class="album-genre"> Rap/Hip Hop </h6>
+                <h6 class="album-genre"> Hip-Hop/Rap </h6>
                 <h6 class="album-duration">1 Hour and 5 minutes</h6>
             <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
             </div>
         </div>
     </div>
 
-    <div class="col-md-6 col-lg-4 mb-5">
+    <div class="col-md-6 col-lg-4 mb-5 album-container">
         <div class="card h-100">
-          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <img src="cover-2.webp" class="card-img-top album-cover" alt="...">
           <div class="card-body">
-              <h5 class="card-title album-title">Victory Lap</h5>
-                  <h4 class="album-artist">Nipsey Hussle</h4>
-                  <h6 class="album-genre"> Rap/Hip Hop </h6>
-                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <h5 class="card-title album-title">A love Letter To You 4</h5>
+                  <h4 class="album-artist">Trippie Redd</h4>
+                  <h6 class="album-genre"> Hip-Hop/Rap </h6>
+                  <h6 class="album-duration">58 minutes </h6>
               <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
               </div>
           </div>
       </div>
 
-      <div class="col-md-6 col-lg-4 mb-5">
+      <div class="col-md-6 col-lg-4 mb-5  album-container">
         <div class="card h-100">
-          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <img src="cover-3.webp" class="card-img-top album-cover" alt="...">
           <div class="card-body">
-              <h5 class="card-title album-title">Victory Lap</h5>
-                  <h4 class="album-artist">Nipsey Hussle</h4>
+              <h5 class="card-title album-title">No Shame</h5>
+                  <h4 class="album-artist">Hopsin</h4>
                   <h6 class="album-genre"> Rap/Hip Hop </h6>
-                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+                  <h6 class="album-duration">1 Hour and 13 minutes </h6>
               <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
               </div>
           </div>
       </div>
 
-      <div class="col-md-6 col-lg-4 mb-5">
+      <div class="col-md-6 col-lg-4 mb-5  album-container">
         <div class="card h-100">
-          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <img src="cover-4.webp" class="card-img-top album-cover" alt="...">
           <div class="card-body">
-              <h5 class="card-title album-title">Victory Lap</h5>
-                  <h4 class="album-artist">Nipsey Hussle</h4>
-                  <h6 class="album-genre"> Rap/Hip Hop </h6>
-                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <h5 class="card-title album-title">Hybrid Theory</h5>
+                  <h4 class="album-artist">Linkin Park</h4>
+                  <h6 class="album-genre"> Rock, Hip-Hop/Rap  </h6>
+                  <h6 class="album-duration">49 minutes<h6>
+              <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-5  album-container">
+        <div class="card h-100">
+          <img src="cover-5.webp" class="card-img-top album-cover" alt="...">
+          <div class="card-body">
+              <h5 class="card-title album-title">Phobia</h5>
+                  <h4 class="album-artist">Breaking Benjamin</h4>
+                  <h6 class="album-genre"> Rock </h6>
+                  <h6 class="album-duration">43 minutes </h6>
               <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
               </div>
           </div>
       </div>
 
 
-      <div class="col-md-6 col-lg-4 mb-5">
+      <div class="col-md-6 col-lg-4 mb-5  album-container">
         <div class="card h-100">
-          <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+          <img src="cover-6.webp" class="card-img-top album-cover" alt="...">
           <div class="card-body">
-              <h5 class="card-title album-title">Victory Lap</h5>
-                  <h4 class="album-artist">Nipsey Hussle</h4>
-                  <h6 class="album-genre"> Rap/Hip Hop </h6>
-                  <h6 class="album-duration">1 Hour and 5 minutes </h6>
+              <h5 class="card-title album-title">One-X</h5>
+                  <h4 class="album-artist">Three Days Grace</h4>
+                  <h6 class="album-genre"> Rock </h6>
+                  <h6 class="album-duration">4 minutes<h6>
               <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
               </div>
           </div>
@@ -141,13 +154,19 @@
             - Tracklist
             - ... And whatever you think it's interesting about it!
     -->
-        <div class="container-fluid album-review w-100 ">
+        <div class="container-fluid album-review p-md-5 bg-overlay-2">
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Victory Lap</h2>
-                    <p>Say something about this album</p>
-                </div>
-                <div class="col-lg-6"> <img class="img-fluid " src="cover-1.webp"></div>
+                <!-- <span class="display-4 text-danger mb-md-5 "> Carls Favourite Album</span> -->
+                <div class="col-md-12 col-lg-8 ">
+                    <span class="display-5 d-md-inline-block text-white border-bottom border-danger mb-3 pb-3 ">Victory Lap</span>
+                    <p class="p-sm-2 mb-5 ms-md-auto me-md-auto text-left text-white">There’s a three-song run towards the beginning of Nipsey Hussle’s Victory Lap 
+                        that explains how Neighborhood Nip’s official debut -- and also, his curtain call
+                         -- embodies its title. Track three features YG, track four Diddy, and five Kendrick Lamar.<br><br>
+                          In these three tracks you hear everything Nipsey Hussle (born Ermias Asghedom) aspired to be,
+                           and eventually became, in his all too brief 33 years. </p>
+                           <h4 class="rating text-danger mb-5"> &#9733; &#9733; &#9733; &#9733; &#9733;</h4>
+                    </div>
+                <div class="col-md-12 col-lg-4"> <img class="img-fluid my-auto " src="cover-1.webp"></div>
             </div>
         </div>
 
@@ -156,11 +175,100 @@
             in this "hall of shame" chart!
         -->
 
+        <div class="container p-5 bg-light" >
+            <span class=" display-4 text-xs-center text-danger mb-md-5 text-md-center text-lg-right ps-lg-5" id="speakers">Hot Trash!</span>
+    
+             <div class="card-deck p-lg-5 ">
+    
+        <div class="col-md-6 col-lg-4 mb-5 album-container">
+          <div class="card h-100">
+            <img src="cover-7.webp" class="card-img-top album-cover" alt="...">
+            <div class="card-body">
+                <h5 class="card-title album-title">Love Story</h5>
+                    <h4 class="album-artist">Yela Wolf</h4>
+                    <h6 class="album-genre"> Rap/Hip Hop </h6>
+                    <h6 class="album-duration">1 Hour and 14 minutes</h6>
+                <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4 mb-5  album-container">
+            <div class="card h-100">
+              <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title album-title">Victory Lap</h5>
+                      <h4 class="album-artist">Nipsey Hussle</h4>
+                      <h6 class="album-genre"> Rap/Hip Hop </h6>
+                      <h6 class="album-duration">1 Hour and 5 minutes </h6>
+                  <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+                  </div>
+              </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4 mb-5  album-container">
+            <div class="card h-100">
+              <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title album-title">Victory Lap</h5>
+                      <h4 class="album-artist">Nipsey Hussle</h4>
+                      <h6 class="album-genre"> Rap/Hip Hop </h6>
+                      <h6 class="album-duration">1 Hour and 5 minutes </h6>
+                  <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+                  </div>
+              </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4 mb-5  album-container">
+            <div class="card h-100">
+              <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title album-title">Victory Lap</h5>
+                      <h4 class="album-artist">Nipsey Hussle</h4>
+                      <h6 class="album-genre"> Rap/Hip Hop </h6>
+                      <h6 class="album-duration">1 Hour and 5 minutes </h6>
+                  <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+                  </div>
+              </div>
+          </div>
+    
+    
+          <div class=" bg-img col-md-6 col-lg-4 mb-5  album-container">
+            <div class="card h-100">
+              <img src="cover-1.webp" class="card-img-top album-cover" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title album-title">Victory Lap</h5>
+                      <h4 class="album-artist">Nipsey Hussle</h4>
+                      <h6 class="album-genre"> Rap/Hip Hop </h6>
+                      <h6 class="album-duration">1 Hour and 5 minutes </h6>
+                  <!-- <a href="#" class="btn mt-2 btn-block btn-primary bg-dark border-0">Buy Now</a> -->
+                  </div>
+              </div>
+          </div>
+    </div>
+    </div>
+    
+
     <!-- EXERCISE 6
             Do you have any musician / band you admire or you are a fan of?
             This section is dedicated to him / her / them!
             Feel free to experiment in this part of the page.
         -->
+
+        <div class="bg-img container-fluid album-review p-md-5 bg-overlay-3 justify-content-center">
+            <div class="row">
+                <!-- <span class="tag display-4 text-danger mb-4 text-lg-right ps-lg-5"> Killer Artist</span> -->
+                <div class="col-lg-8 p-md-5">
+                    <span class=" d-block display-4 text-white  border-bottom border-danger mb-md-3 pb-2" >Hopsin</span>
+                    <p class="p-sm-2 mb-5 ms-md-auto me-md-auto text-left text-white">Born on July 18, 1985, Marcus Jamal Hopson grew up in the San Fernando Valley of Los Angeles County. 
+                        Stories from his upbringing can be heard in his lyrics. Hopsin was an actor as a youth, long before he was recognized as a talented Hip Hop artist.<br><br> He was a paid
+                         extra/actor on a variety of television shows and a movie or two.Marcus was in Special Education classes throughout most of school.
+                         Eventually, sick of the system he could not find his place in, Hop dropped out of school to pursue a career in entertainment.
+                     </p>
+                           <!-- <h4 class="text-danger mb-5"><span class="text-white ">STR8 FIRE </span> / <span class="text-white">10 </span></h4> -->
+                </div>
+            </div>
+        </div>
 
     <!-- EXERCISE 7
             Just covers!

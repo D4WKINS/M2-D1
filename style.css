@@ -14,41 +14,40 @@
     background-color:black;
 } */
 
-@font-face{
-    font-family:'flames';
-    src: url('johnnytorch.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-   
-
-.container,
-.album-review{
-    /* margin-top:5rem;
-    margin-bottom: 5rem; */
-
-}
-
 .album-review{
     text-align:center;
-    background-color:rgb(20,20,20);
+    background-color:black;
     color:white;
 }
 
 
 
-.album-container{
-  
+.album-container:hover{
+    transform: scale(1.05);
+    transition: 750ms;
+    border-radius:3px;
+}
+
+.album-title{
+
+
 }
 
 .album-cover{
+    box-shadow: .5px 2px 4px rgba(190, 190, 190, .5);
 }
 
 
 .navbar{
-    background-color:rgb(20,20,20);
+
+    background-color:rgb(0,0,0);
+    
 }
 
 .navbar-brand{
-    font-family:flames;
+    font-family:arial;
+    font-size:3em;
+    letter-spacing: .1em;
 }
 
 
@@ -59,8 +58,7 @@
 } 
 
 .album-artist{
-
-
+    color:#dc3545;
 }
 
 .album-genre{
@@ -73,15 +71,49 @@
 
 }
 
-.jumbotron-fluid{
-color:white;
-background-image: url('stage-2.jpeg');
-background-position: 25px 0px;
-background-size: cover;
-background-color: rgba(255, 70, 70 , .8);
-background-blend-mode: multiply;
+.rating{
+    background-color:white;
+    padding:1em;
 }
 
+.bg-overlay-1 {
+    color:white;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("stage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 400px;
+    padding-top: 50px;
+}
 
+.bg-overlay-2 {
+    color:white;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("nipsey-hussle-performing-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center bottom;
+    color: #fff;
+    height: 100%;
+    padding-top: 50px;
+    z-index: -1;
+}
+
+.bg-overlay-3 {
+    color:white;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("hopsin-4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
+    color: #fff;
+    height: 100%;
+    padding-top: 50px;
+    z-index: -1;
+}
+
+/* .bg-img{
+    height:768px;
+}
+ */
 
 
