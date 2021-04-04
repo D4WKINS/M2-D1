@@ -155,7 +155,7 @@ footer{
 
     .bg-overlay-1 {
         color:white;
-        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("stage.jpeg");
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("bg-music.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
