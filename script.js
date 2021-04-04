@@ -19,3 +19,25 @@ const createTapestry =  function(){
 }
 
 createTapestry()
+
+
+const albumInfo = () =>{
+    let overlay = document.getElementsByClassName('album-overlay')
+    let overlayP = document.getElementsByClassName('overlayP')
+    let display = 'off';
+    for(let i =0; i<overlayP.length; i++){
+        if( display == 'on'){
+            display = 'off'
+            overlayP[i].style.display = "none"
+            overlay[i].classList.remove("album-info")
+            overlay[i].classList.remove("h-100")
+            overlay[i].classList.remove("w-100")
+        }
+        else if(display == 'off')
+        display = 'on'
+        overlayP[i].style.display = "block"
+        overlay[i].classList.add("album-info")
+        overlay[i].classList.add("h-100")
+        overlay[i].classList.add("w-100")
+    }
+}
